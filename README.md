@@ -11,6 +11,7 @@
 
 ### 2. Qué construí
 En este proyecto me enfoqué en construir mi primera página web sobre un animalito que me gusta (los perritos).
+
 Contiene las siguientes secciones:
 
 - **Head:** Sección que involucra el nombre de la página y la conexión del archivo HTML con el CSS.
