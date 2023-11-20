@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--Así se pone un comentario-->
+
+<head>
+    <title>Página de Perritos Bonitos</title>
+    <!--todo lo que esta en head no se muestra en la página como tal, pero configura ciertas cosas-->
+
+    <link href="estilos.css" rel="stylesheet">
+    <!--Es para conectar el css a este archivo-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap" rel="stylesheet">
+    <!--Se copio desde Google fonts para el tipo de letra que quiero en mi página-->
+</head>
+
+<body>
+    <h1>Página de Perritos Bonitos</h1>
+    <h3>Imágenes de perritos chiquitos</h3>
+    <!--se recomienda solo llegar hasta h6-->
+
+    <!--Insertar imagen desde la web-->
+    <img class="img1" src="https://www.mundoperro.net/wp-content/uploads/Un-perro-para-cada-persona.jpg">
+
+    <!--Insertar imagen desde mi compu-->
+    <img class="img2" src="imagenes/perritosbebes.jpg">
+
+
+    <!--Enlaces externos-->
+    <p>Si quieres ver más imágenes de perritos bonitos, <a href="https://pin.it/6JQfw9L" target="_blank">da click en este enlace</a>.</p>
+
+    <h3>Listas de Perritos</h3>
+    <p>3 cosas que los perritos <strong>aman</strong>:</p>
+
+    <!--Lista ordenada-->
+    <!--"ol" por orden list/ "li" por list item-->
+    <ol>
+        <li>Comer</li>
+        <li>Tomar siestas</li>
+        <li>Jugar</li>
+    </ol>
+
+    <!--Lista desordenada-->
+    <p>3 cosas que los perritos <i>odian</i>:</p>
+    <ul>
+        <li>Bañarse</li>
+        <li>Estar solitos</li>
+        <li>Tener hambre</li>
+    </ul>
+
+    <!--Formularios-->
+    <form>
+
+        <!--Form con botones de radio-->
+        <p>¿Tu perrito es cachorro o es adulto?</p>
+        <label>
+            <input id="cachorro" type="radio" value="cachorro" name="form-perritos" checked>Cachorro
+        </label>
+            <br>
+        <label>
+            <input id="adulto" type="radio" value="adulto" name="form-perritos">Adulto
+        </label>
+
+
+        <!--Formulario con casillas de verificación/checks-->
+        <p>¿Qué tipo de personalidad tiene tu perrito?</p>
+        <label>
+            <input id="enojon" type="checkbox" value="enojon" name="personalidad" checked>Enojón 
+        </label>
+            <br>
+        <label>
+            <input id="perezoso" type="checkbox" value="perezoso" name="personalidad">Perezoso
+        </label>
+            <br>
+        <label>
+            <input id="energico" type="checkbox" value="energico" name="personalidad">Enérgico
+        </label>
+
+    </form>
+</body>
+
+<footer>
+    <p><small>Esta página fue creada durante el bootcamp de <strong><a href="https://tecnolochicas.mx/" target="_blank">Tecnolochicas PRO</a>.</strong></small></p>
+</footer>

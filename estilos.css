@@ -1,0 +1,52 @@
+body{
+    background-color: #6e71dc;
+    color: beige;
+    
+    font-family: 'Playpen Sans', cursive;
+    /*Al igual que en html se copio desde Google fonts*/
+
+
+}
+/*Asi se pone un comentario en CSS*/
+
+h1, p{
+    color: #ffd9f3;
+}
+
+
+h3{
+    color: #e9acef;
+}
+
+.img1 {
+    width: 370px;              /*Ancho de la imagen*/
+    height: 250px;             /*Alto*/
+    border-style: dotted;
+    border-width: 7px;
+    border-color: #e9acef;
+    margin-left: 50px;         /*Separación del borde hacia afuera*/
+    margin-bottom: 0px;       /*Separación entre imágenes*/
+    padding: 7px;             /*Separación del borde hacia adentro*/
+}
+
+.img2 {
+    width: 380px;
+    height: 250px;
+    border-style: dotted;
+    border-width: 7px;
+    border-color: #e9acef;
+    margin-left: 50px;
+    padding: 7px;
+}
+
+footer{
+    background-color: #af87e1;
+    
+}
+
+small, a{
+    color: white;
+    padding-bottom: 60px;
+    text-decoration: none;
+
+}
